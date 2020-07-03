@@ -1,1 +1,2 @@
 Rebase text is added
+Rebase new text
