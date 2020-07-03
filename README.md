@@ -25,3 +25,4 @@ Rebase 是把整个分支 放到Master最后的部分
 - Merge Rebase 已经解释过了
 - Squash 就是将分支压缩，并加入Master
 - Draft 是先不进行代码审查，经过同意后，再进行代码审查
+- Merge: 产生一个merge的commit，Rebase 不会产生
