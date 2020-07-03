@@ -10,3 +10,11 @@
 - Merge 将分支合并到主干
 - Push、Publish 将PC同步到Web
 - Pull Requset 提出请求，将分支合并到Master（会有讨论区等）
+
+## 普通的Merge
+Commit的时间顺序不改变，会讲所有commit直接合并到Master内，并且所有Commit按照时间顺序排序
+## Rebase
+Rebase 是把整个分支 放到Master最后的部分
+- Master分支无法使用
+- 如果指针指在 Master最后部分，就没法Rebase
+- Rebase后，会把Master的新加内容，添加到分支上，并重新排序
