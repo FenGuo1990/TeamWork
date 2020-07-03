@@ -18,3 +18,10 @@ Rebase 是把整个分支 放到Master最后的部分
 - Master分支无法使用
 - 如果指针指在 Master最后部分，就没法Rebase
 - Rebase后，会把Master的新加内容，添加到分支上，并重新排序
+
+## Pull Requst
+一般发出新功能请求，并添加一定的代码，请求加入主分支。经过代码审查后，加入主分支，成为新版本
+- 融合三种方式：Merge Squash Rebase
+- Merge Rebase 已经解释过了
+- Squash 就是将分支压缩，并加入Master
+- Draft 是先不进行代码审查，经过同意后，再进行代码审查
