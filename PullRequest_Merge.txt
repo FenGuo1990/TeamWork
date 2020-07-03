@@ -1,0 +1,6 @@
+There are 3 kinds of methods in Pull Request
+1. Merge
+2. Squash
+3. Rebase
+
+new text is added.
